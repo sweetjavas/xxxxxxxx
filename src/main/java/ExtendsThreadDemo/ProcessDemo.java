@@ -1,6 +1,5 @@
-package process;
+package ExtendsThreadDemo;
 
-import java.io.IOException;
 
 public class ProcessDemo {
     public static void main(String[] args) throws Exception {
