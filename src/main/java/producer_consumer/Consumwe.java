@@ -1,6 +1,6 @@
 package producer_consumer;
 
-public class Consumer implements Runnable {
+class Consumer implements Runnable {
     private shareResource resource = null;
     public Consumer(shareResource resource)
     {
