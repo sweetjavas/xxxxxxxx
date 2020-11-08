@@ -6,7 +6,7 @@ class person extends  Thread{
         super(name);
     }
 
-    public void rum(){
+    public void run(){
         for(int i=1;i<50;i++){
             if(num >0){
                 System.out.println(super.getName()+"吃了编号为"+ num-- +"的苹果");
